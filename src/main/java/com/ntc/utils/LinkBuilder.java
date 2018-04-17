@@ -4,10 +4,10 @@ import com.ntc.configer.NConfig;
 
 
 public class LinkBuilder {
-	public static final String _defaultAvatar = "https://spabee.com/images/noavatar.png";
-	public static final String _defaultBizAvatar = "https://spabee.com/images/bar_noavatar.png";
-	public static final String _defaultCover = "https://spabee.com/images/nocover.jpg";
-	public static final String _staticDomain = NConfig.getConfig().getString("static.domain", "dev.spakonect.com");
+	public static final String _defaultAvatar = "https://example.com/images/noavatar.png";
+	public static final String _defaultBizAvatar = "https://example.com/images/bar_noavatar.png";
+	public static final String _defaultCover = "https://example.com/images/nocover.jpg";
+	public static final String _staticDomain = NConfig.getConfig().getString("static.domain", "dev.example.com");
 
 	public static String buildAvatarLink(int uid, int avtVer, long tmpId, int size) {
 		//String noiseString = NoiseIdUtils.encryptString(System.currentTimeMillis() + "");

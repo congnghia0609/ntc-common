@@ -23,7 +23,7 @@ package com.ntc.nidutil;
  */
 public class NIdNoise {
 
-    private final static String NSALT = "nghiatcGS!@#14012017";
+    private final static String NSALT = "dfeby35#%$#^jasbfmnsb";
     private final static int HASH_LENGTH = 11;
     private final static Hashids hashId = new Hashids(NSALT, HASH_LENGTH);
     

@@ -25,9 +25,6 @@ public class AuthenticateUtils {
 
 	public static String generateSession(String userName) {
 		StringBuilder session = new StringBuilder(Base64.encodeBase64String(DigestUtils.sha256(userName + System.nanoTime())));
-//		session.insert(2, RandomStringUtils.random(3));
-//		session.insert(11, RandomStringUtils.random(6));
-//		session.insert(26, RandomStringUtils.random(9));
 		return session.toString();
 	}
 

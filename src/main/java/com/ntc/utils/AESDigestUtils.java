@@ -29,7 +29,7 @@ public class AESDigestUtils {
 	private static final String CIPHER = "AES";
 	private static final String HASH = "SHA-256";
 	private static final String CHARSET = "utf-8";
-	private static final IvParameterSpec iv = new IvParameterSpec("dkmobile@#3%&123".getBytes());
+	private static final IvParameterSpec iv = new IvParameterSpec("98765432@#3%&123".getBytes());
 
 	public static String encrypt(String text, String secretKey) throws Exception {
 		MessageDigest md = MessageDigest.getInstance(HASH);

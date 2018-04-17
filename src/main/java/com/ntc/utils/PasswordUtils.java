@@ -52,10 +52,9 @@ public class PasswordUtils {
 	}
 	
 	public static boolean isMediumPassword(String password, String username) {
-		if (password.length() < 5) {
+		if (password.length() < 6) {
 			return false;
 		}
-		
 		return true;
 	}
 	

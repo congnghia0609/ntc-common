@@ -2,7 +2,7 @@ package com.ntc.utils;
 
 
 public class NoiseIdUtils {
-	private static TEA tea = new TEA("luvdk@#$!DKMcvbt".getBytes());
+	private static TEA tea = new TEA("12345@#$!JHGcvbt".getBytes());
 
 	public static String encryptString(String id) {
 		return StringUtils.bytesToHexString(tea.encrypt(id.getBytes()));
