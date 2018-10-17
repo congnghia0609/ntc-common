@@ -66,6 +66,15 @@ public class JsonUtils {
 			return null;
 		}
 	}
+    
+    public <T> List<T> getList(byte[] data){
+		try {
+			return objMapper.readValue(data, new TypeReference<List<T>>(){});
+		} catch (Exception e) {
+			logger.error(e.getMessage());
+			return null;
+		}
+	}
 
 	public Map<String, String> getMap(String json){
 		try {
