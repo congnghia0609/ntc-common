@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.ntc</groupId>
+    <groupId>com.streetcodevn</groupId>
     <artifactId>ntc-common</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -12,11 +12,11 @@
         <maven.compiler.target>1.7</maven.compiler.target>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.build.timestamp.format>yyyyMMdd</maven.build.timestamp.format>
-        <jettyVersion>9.4.12.v20180830</jettyVersion>
+        <jettyVersion>9.4.18.v20190429</jettyVersion>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.ntc</groupId>
+            <groupId>com.streetcodevn</groupId>
             <artifactId>ntc-configuration</artifactId>
             <version>1.0.0</version>
         </dependency>
